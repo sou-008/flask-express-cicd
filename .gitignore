@@ -1,0 +1,32 @@
+# Ignore Python virtual environment for Flask
+flask-backend/venv/
+
+# Ignore Node modules for Express
+express-frontend/node_modules/
+
+# Ignore cache and temp files
+.cache/
+.npm/
+.pm2/
+
+# Ignore shell configuration files
+.profile
+.bashrc
+.bash_logout
+
+# Ignore sudo configuration
+.sudo_as_admin_successful
+
+# Ignore other unnecessary files
+*.log
+.env
+.DS_Store
+
+# Ignore SSH directory (security reason)
+.ssh/
+
+# Ignore Vim info file
+.viminfo
+
+# Ignore wget info file
+.wget-hsts
